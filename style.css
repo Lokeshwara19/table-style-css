@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    border-radius: 10px;
+}
+body{
+    background: linear-gradient(to bottom left,#c550c2,#4958cf);
+    margin:0;
+    padding: 0;
+
+}
+thead{
+    background-color: #36304a;
+    color: white;
+    background-clip: border-box;
+    
+    
+}
+.table-container{
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px; 
+    width: 60%;
+    overflow: hidden;
+}
+th,td{
+    padding: 10px
+     /* border-radius: 10px;   */
+}
+
+th{
+    background-color: #36304a;
+    color:white;
+    /* border-top-left-radius:4px;
+    border-top-right-radius: 4px; */
+    
+}
+/* table{
+    border-radius: 10px;
+} */
+ 
+tr:nth-child(even){
+    background-color: rgb(0, 0, 0,0.1);
+    
+}
